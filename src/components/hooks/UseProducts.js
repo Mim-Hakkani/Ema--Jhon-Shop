@@ -9,8 +9,6 @@ const UseProducts = () => {
      .then(data=>setProducts(data))
   },[]);
 
-
-
   return [products,setProducts];
 };
 
